@@ -11,11 +11,7 @@ Nama: Dinda Aulia Rizky NIM: 2409116076 Kelas: B
 
 
 
-<img width="230" height="65" alt="Screenshot 2025-09-08 224541" src="https://github.com/user-attachments/assets/edba7599-846e-4dae-9731-f6ef913fbf09" />
 
-
-
-<img width="266" height="260" alt="Screenshot 2025-09-08 225212" src="https://github.com/user-attachments/assets/9f9e8230-a092-4e73-a122-5f71b893070d" />
 
 
 
