@@ -10,10 +10,13 @@ Nama: Dinda Aulia Rizky NIM: 2409116076 Kelas: B
 <img width="412" height="26" alt="Screenshot 2025-09-08 224336" src="https://github.com/user-attachments/assets/8f56e05e-2be5-4391-9faf-e036221261cc" />
 
 
+
 <img width="230" height="65" alt="Screenshot 2025-09-08 224541" src="https://github.com/user-attachments/assets/edba7599-846e-4dae-9731-f6ef913fbf09" />
 
 
+
 <img width="266" height="260" alt="Screenshot 2025-09-08 225212" src="https://github.com/user-attachments/assets/9f9e8230-a092-4e73-a122-5f71b893070d" />
+
 
 
 <img width="814" height="223" alt="Screenshot 2025-09-08 225234" src="https://github.com/user-attachments/assets/20fee4bd-e199-4a6e-8450-123179517536" />
@@ -32,9 +35,6 @@ Nama: Dinda Aulia Rizky NIM: 2409116076 Kelas: B
 
 
 <img width="274" height="101" alt="Screenshot 2025-09-08 225437" src="https://github.com/user-attachments/assets/f02371f7-fa18-4e52-aec5-f24412767775" />
-
-
-<img width="856" height="446" alt="Screenshot 2025-09-08 225537" src="https://github.com/user-attachments/assets/95ac80d9-aab0-451e-90b5-8112381401dd" />
 
 
 <img width="854" height="560" alt="Screenshot 2025-09-08 225737" src="https://github.com/user-attachments/assets/29a412c1-8399-4405-a07c-5ded2c3da533" />
