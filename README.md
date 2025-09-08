@@ -43,8 +43,16 @@ Kode pilihan = scanner.nextInt(); digunakan untuk membaca input angka yang dimas
 
 <img width="274" height="101" alt="Screenshot 2025-09-08 225437" src="https://github.com/user-attachments/assets/f02371f7-fa18-4e52-aec5-f24412767775" />
 
-
+Pada blok case 1, program pertama-tama memeriksa apakah daftarObat masih kosong dengan perintah isEmpty(). Jika kosong, maka akan ditampilkan pesan "Obat belum tersedia.". Namun, jika terdapat data obat, program akan mencetak judul daftar obat, kemudian melakukan perulangan dengan for untuk menampilkan setiap data obat secara terurut berdasarkan indeksnya. Setiap objek obat akan ditampilkan dengan atribut yang meliputi nama obat, kategori, tanggal kadaluarsa, jumlah stok, serta harga. Dengan demikian, bagian kode ini memiliki fungsi utama sebagai menu untuk melihat daftar obat yang sudah dimasukkan ke dalam sistem.
 
 <img width="854" height="560" alt="Screenshot 2025-09-08 225737" src="https://github.com/user-attachments/assets/29a412c1-8399-4405-a07c-5ded2c3da533" />
+
+Pada blok case 2, program meminta pengguna untuk menginput beberapa informasi terkait obat, yaitu nama, kategori, tanggal kadaluarsa, stok, dan harga. Input ini diambil melalui objek scanner. Setelah semua data berhasil diinput, program membuat objek baru dari kelas obat dengan menggunakan konstruktor yang menerima parameter sesuai data yang dimasukkan. Objek obat tersebut kemudian ditambahkan ke dalam daftarObat dengan perintah daftarObat.add(). Setelah proses berhasil, program akan menampilkan pesan "Obat berhasil ditambahkan!". Jadi, bagian kode ini berfungsi sebagai menu input data obat baru agar dapat tersimpan dalam daftar untuk ditampilkan pada menu sebelumnya.
+
+<img width="646" height="472" alt="image" src="https://github.com/user-attachments/assets/97adac97-5852-4481-a6c5-3d64ce8e0e24" />
+
+
+
+
 
 
