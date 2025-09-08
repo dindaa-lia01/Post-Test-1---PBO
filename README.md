@@ -51,6 +51,24 @@ Pada blok case 2, program meminta pengguna untuk menginput beberapa informasi te
 
 <img width="646" height="472" alt="image" src="https://github.com/user-attachments/assets/97adac97-5852-4481-a6c5-3d64ce8e0e24" />
 
+Pada potongan kode ini, program menangani pilihan menu untuk mengubah data obat. Pertama-tama, program akan memeriksa apakah daftar obat kosong atau tidak. Jika tidak kosong, pengguna diminta untuk memasukkan nomor obat yang ingin diubah. Setelah itu, program akan mengambil objek obat berdasarkan nomor yang dimasukkan (dengan penyesuaian indeks karena dimulai dari 1). Kemudian, program akan menampilkan data lama dan meminta input baru untuk nama, kategori, stok, dan harga. Setiap input yang tidak kosong akan digunakan untuk memperbarui data obat tersebut. Jika input dibiarkan kosong, maka data lama akan tetap dipertahankan. Setelah semua proses selesai, program akan menampilkan pesan bahwa data berhasil diubah. Jika nomor obat yang dimasukkan tidak valid, akan ditampilkan pesan kesalahan.
+
+<img width="624" height="874" alt="Screenshot 2025-09-08 232605" src="https://github.com/user-attachments/assets/dbe42dfc-5d4a-452e-a559-ea8189ca8c71" />
+
+<img width="503" height="395" alt="Screenshot 2025-09-08 232637" src="https://github.com/user-attachments/assets/74686237-c62f-4579-bc92-3d8f9820365a" />
+
+Kode pada gambar ini digunakan untuk menghapus data obat dari daftar. Program akan memeriksa apakah daftar obat kosong. Jika tidak, pengguna akan diminta untuk memasukkan nomor obat yang ingin dihapus. Program kemudian memvalidasi apakah nomor tersebut berada dalam rentang indeks yang tersedia. Jika valid, data obat akan dihapus dari daftar dan ditampilkan pesan bahwa obat berhasil dihapus. Jika tidak valid, maka akan ditampilkan pesan kesalahan bahwa nomor obat tidak valid.
+
+<img width="629" height="477" alt="Screenshot 2025-09-08 232701" src="https://github.com/user-attachments/assets/2d001434-6141-4244-9873-bffac547d7c2" />
+
+Potongan kode terakhir ini menangani dua hal, yaitu keluar dari program (case 5) dan penanganan input menu yang tidak valid (default). Pada case 5, program akan menampilkan pesan terima kasih kepada pengguna dan menyatakan bahwa program telah selesai. Sementara itu, jika input pengguna tidak sesuai dengan pilihan menu yang ada, maka program akan menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk menginput ulang. Terakhir, scanner ditutup dan program berhenti ketika pilihan adalah angka 5.
+
+<img width="826" height="414" alt="Screenshot 2025-09-08 232727" src="https://github.com/user-attachments/assets/c371f047-207d-41fe-a482-51e9db2eb421" />
+
+# `B. Penjelasan Output`
+
+
+
 
 
 
