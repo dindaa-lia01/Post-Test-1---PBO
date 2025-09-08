@@ -68,33 +68,39 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
 10. Menu menampilkan daftar obat
 
-    Pada case 1, program akan memeriksa apakah daftarObat masih kosong dengan perintah isEmpty(). Jika kosong, maka akan ditampilkan pesan "Obat belum tersedia.". Namun, jika terdapat data obat, program akan mencetak judul daftar obat, kemudian melakukan perulangan dengan for untuk menampilkan setiap data obat secara terurut berdasarkan indeksnya. Setiap objek obat akan ditampilkan dengan atribut yang meliputi nama obat, kategori, tanggal kadaluarsa, jumlah stok, serta harga. Dengan demikian, bagian kode ini memiliki fungsi sebagai menu untuk melihat daftar obat yang sudah dimasukkan ke dalam program. fungsi break setiap case di dalam switch adalah supaya program berhenti setelah menemukan case yang cocok dan tidak mengeksekusi case lainnya yang tidak relevan.
+    Pada case 1, program akan memeriksa apakah daftarObat masih kosong dengan perintah isEmpty(). Jika kosong, maka akan ditampilkan pesan "Obat belum tersedia.". Namun, jika terdapat data obat, program akan mencetak judul daftar obat, kemudian melakukan perulangan dengan for untuk menampilkan setiap data obat secara terurut berdasarkan indeksnya.
+
+    Setiap objek obat akan ditampilkan dengan atribut yang meliputi nama obat, kategori, tanggal kadaluarsa, jumlah stok, serta harga. Dengan demikian, bagian kode ini memiliki fungsi sebagai menu untuk melihat daftar obat yang sudah dimasukkan ke dalam program. fungsi break setiap case di dalam switch adalah supaya program berhenti setelah menemukan case yang cocok dan tidak mengeksekusi case lainnya yang tidak relevan.
 
     <img width="854" height="560" alt="Screenshot 2025-09-08 225737" src="https://github.com/user-attachments/assets/29a412c1-8399-4405-a07c-5ded2c3da533" />
 
-11. Menu menambahkan data obat baru ke dalam daftar obat
+12. Menu menambahkan data obat baru ke dalam daftar obat
 
     Pada case 2, program meminta pengguna untuk menginput beberapa informasi terkait obat, yaitu nama, kategori, tanggal kadaluarsa, stok, dan harga. Input ini diambil melalui objek scanner. Setelah semua data berhasil diinput, program membuat objek baru dari kelas obat dengan menggunakan konstruktor yang menerima parameter sesuai data yang dimasukkan. Objek obat tersebut kemudian ditambahkan ke dalam daftarObat dengan perintah daftarObat.add(). Setelah proses berhasil, program akan menampilkan pesan "Obat berhasil ditambahkan!". Jadi, bagian kode ini berfungsi sebagai menu input data obat baru agar dapat tersimpan dalam daftar untuk ditampilkan pada menu sebelumnya.
 
     <img width="646" height="472" alt="image" src="https://github.com/user-attachments/assets/97adac97-5852-4481-a6c5-3d64ce8e0e24" />
 
-12. Menu mengubah data obat
+13. Menu mengubah data obat
 
-    Pada potongan kode ini, program menangani pilihan menu untuk mengubah data obat. Program akan memeriksa apakah daftar obat kosong atau tidak. Jika tidak kosong, pengguna diminta untuk memasukkan nomor obat yang ingin diubah. Setelah itu, program akan mengambil objek obat berdasarkan nomor yang dimasukkan (dengan penyesuaian indeks karena dimulai dari 1). Kemudian, program akan menampilkan data lama dan meminta input baru untuk nama, kategori, stok, dan harga. Setiap input yang tidak kosong akan digunakan untuk memperbarui data obat tersebut. Jika input dibiarkan kosong, maka data lama akan tetap dipertahankan. Setelah semua proses selesai, program akan menampilkan pesan bahwa data berhasil diubah. Jika nomor obat yang dimasukkan tidak valid, akan ditampilkan pesan kesalahan.
+    Pada potongan kode ini, program menangani pilihan menu untuk mengubah data obat. Program akan memeriksa apakah daftar obat kosong atau tidak. Jika tidak kosong, pengguna diminta untuk memasukkan nomor obat yang ingin diubah. Setelah itu, program akan mengambil objek obat berdasarkan nomor yang dimasukkan (dengan penyesuaian indeks karena dimulai dari 1).
+
+    Kemudian, program akan menampilkan data lama dan meminta input baru untuk nama, kategori, stok, dan harga. Setiap input yang tidak kosong akan digunakan untuk memperbarui data obat tersebut. Jika input dibiarkan kosong, maka data lama akan tetap dipertahankan. Setelah semua proses selesai, program akan menampilkan pesan bahwa data berhasil diubah. Jika nomor obat yang dimasukkan tidak valid, akan ditampilkan pesan kesalahan.
 
     <img width="624" height="874" alt="Screenshot 2025-09-08 232605" src="https://github.com/user-attachments/assets/dbe42dfc-5d4a-452e-a559-ea8189ca8c71" />
 
     <img width="503" height="395" alt="Screenshot 2025-09-08 232637" src="https://github.com/user-attachments/assets/74686237-c62f-4579-bc92-3d8f9820365a" />
 
-13. Menu menghapus data obat
+14. Menu menghapus data obat
 
     Kode pada gambar ini digunakan untuk menghapus data obat dari daftar. Program akan memeriksa apakah daftar obat kosong. Jika tidak, pengguna akan diminta untuk memasukkan nomor obat yang ingin dihapus. Program kemudian memvalidasi apakah nomor tersebut berada dalam rentang indeks yang tersedia. Jika valid, data obat akan dihapus dari daftar dan ditampilkan pesan bahwa obat berhasil dihapus. Jika tidak valid, maka akan ditampilkan pesan kesalahan bahwa nomor obat tidak valid.
 
     <img width="629" height="477" alt="Screenshot 2025-09-08 232701" src="https://github.com/user-attachments/assets/2d001434-6141-4244-9873-bffac547d7c2" />
 
-14. Keluar program dan Penanganan Input Tidak Valid
+15. Keluar program dan Penanganan Input Tidak Valid
 
-    Potongan kode terakhir ini menangani dua hal, yaitu keluar dari program (case 5) dan penanganan input menu yang tidak valid (default). Pada case 5, program akan menampilkan pesan terima kasih kepada pengguna dan menyatakan bahwa program telah selesai. Sementara itu, jika input pengguna tidak sesuai dengan pilihan menu yang ada, maka program akan menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk menginput ulang dikarenakan program ini menerapkan perulangan do while untuk memastikan menu utama selalu ditampilkan kembali setelah pengguna memilih suatu opsi. Dengan perulangan ini, pengguna dapat melakukan berbagai operasi seperti menambah, memperbarui, atau menghapus data obat secara berulang tanpa harus menjalankan program dari awal.Terakhir, scanner ditutup dan program berhenti ketika pilihan adalah angka 5.
+    Potongan kode terakhir ini menangani dua hal, yaitu keluar dari program (case 5) dan penanganan input menu yang tidak valid (default). Pada case 5, program akan menampilkan pesan terima kasih kepada pengguna dan menyatakan bahwa program telah selesai.
+
+    Sementara itu, jika input pengguna tidak sesuai dengan pilihan menu yang ada, maka program akan menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk menginput ulang dikarenakan program ini menerapkan perulangan do while untuk memastikan menu utama selalu ditampilkan kembali setelah pengguna memilih suatu opsi. Dengan perulangan ini, pengguna dapat melakukan berbagai operasi seperti menambah, memperbarui, atau menghapus data obat secara berulang tanpa harus menjalankan program dari awal.Terakhir, scanner ditutup dan program berhenti ketika pilihan adalah angka 5.
 
     <img width="826" height="414" alt="Screenshot 2025-09-08 232727" src="https://github.com/user-attachments/assets/c371f047-207d-41fe-a482-51e9db2eb421" />
 
