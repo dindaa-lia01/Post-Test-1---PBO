@@ -108,18 +108,24 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
    1. Menu Tampilkan Daftar Obat
 
+      Program menampilkan menu utama “Manajemen Daftar Obat di Apotek” yang berisi beberapa pilihan, seperti menampilkan daftar obat, menambah obat, memperbarui stok, menghapus daftar, dan keluar dari program. Pengguna memilih opsi 1 (Tampilkan Daftar Obat) sehingga program menampilkan seluruh data obat yang sudah tersimpan. Informasi yang ditampilkan meliputi nama obat, kategori, tanggal kedaluwarsa, jumlah stok, serta harga. Contohnya, terdapat obat Amoxicillin, Paracetamol, Ibuprofen, dan Vitamin C dengan detail masing-masing.
+      
       <img width="628" height="709" alt="image" src="https://github.com/user-attachments/assets/9472971c-33e7-43e7-b413-987895d15f00" />
 
-   2. Menu Tambah Obat
+   1. Menu Tambah Obat
 
+      Pada menu kedua pengguna memilih untuk menambahkan obat. Setelah itu, program meminta input berupa nama obat, kategori, tanggal kedaluwarsa, stok, dan harga. Pengguna kemudian memasukkan data obat baru yaitu Omeprazole dengan kategori Antasida, expired date 10-03-2026, stok 76, dan harga Rp18000. Setelah seluruh data dimasukkan, program memberikan konfirmasi dengan pesan “Obat berhasil ditambahkan!”, yang menandakan bahwa obat tersebut sudah masuk ke dalam daftar.
+      
       <img width="510" height="302" alt="image" src="https://github.com/user-attachments/assets/e256c79b-1841-4b4f-a65e-682786bf56c8" />
 
       Pengecekan:
-
+      
       <img width="519" height="674" alt="image" src="https://github.com/user-attachments/assets/a97ab7e7-ca33-486d-a119-3a4f4e343484" />
 
    3. Menu Update Stok
 
+      Pengguna memilih menu nomor 3 (Update Stok). Setelah itu, diminta untuk memasukkan nomor obat yang ingin diubah, yaitu obat nomor 1. Pengguna kemudian dapat memperbarui data obat, seperti stok baru (50), sedangkan nama, kategori, dan harga tetap seperti sebelumnya karena tidak diubah. Setelah semua data dimasukkan, program memberikan notifikasi bahwa data obat berhasil diubah.
+    
       <img width="519" height="305" alt="image" src="https://github.com/user-attachments/assets/f2cf369a-06af-4c9d-afed-e08ee65426bc" />
 
       Pengecekan:
@@ -128,19 +134,25 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
    4. Menu Hapus Daftar
 
+      Pengguna memilih menu nomor 4 (Hapus Daftar). Program meminta pengguna untuk memasukkan nomor obat yang ingin dihapus, yaitu obat nomor 5. Setelah dikonfirmasi, program menampilkan pesan bahwa obat berhasil dihapus dari daftar.
+            
       <img width="538" height="223" alt="image" src="https://github.com/user-attachments/assets/8c32e3b9-21bf-4964-99bf-9e3a218165be" />
 
       Pengecekan:
 
       <img width="573" height="714" alt="image" src="https://github.com/user-attachments/assets/7dd437d8-99c1-41dd-9dc5-39cb7b676e8d" />
 
-   6. Menu Keluar
+   5. Menu Keluar
 
+      Setelah itu, pengguna memilih menu nomor 5 (Keluar). Program menampilkan pesan terima kasih dan menyatakan bahwa program selesai dijalankan.
+      
       <img width="570" height="449" alt="image" src="https://github.com/user-attachments/assets/728de112-a433-4716-a3bc-b791893f72a3" />
 
    
-   8. Pengecekan 
+   6. Pengecekan 
 
+      Pengguna pertama kali memilih menu dengan nomor 6, yang tidak valid karena hanya tersedia pilihan 1 sampai 5. Program menampilkan pesan kesalahan dan meminta input ulang.
+      
       <img width="529" height="381" alt="image" src="https://github.com/user-attachments/assets/e963befe-a1a5-440f-bdcf-3de731757c34" />
 
 
