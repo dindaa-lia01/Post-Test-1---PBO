@@ -106,6 +106,42 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
 # `B. Penjelasan Output`
 
+   1. Menu Tampilkan Daftar Obat
+
+      <img width="628" height="709" alt="image" src="https://github.com/user-attachments/assets/9472971c-33e7-43e7-b413-987895d15f00" />
+
+   2. Menu Tambah Obat
+
+      <img width="510" height="302" alt="image" src="https://github.com/user-attachments/assets/e256c79b-1841-4b4f-a65e-682786bf56c8" />
+
+      Pengecekan:
+
+      <img width="519" height="674" alt="image" src="https://github.com/user-attachments/assets/a97ab7e7-ca33-486d-a119-3a4f4e343484" />
+
+   3. Menu Update Stok
+
+      <img width="519" height="305" alt="image" src="https://github.com/user-attachments/assets/f2cf369a-06af-4c9d-afed-e08ee65426bc" />
+
+      Pengecekan:
+      
+      <img width="541" height="154" alt="image" src="https://github.com/user-attachments/assets/ab011296-807a-4d77-998e-fce936ec9b81" />
+
+   4. Menu Hapus Daftar
+
+      <img width="538" height="223" alt="image" src="https://github.com/user-attachments/assets/8c32e3b9-21bf-4964-99bf-9e3a218165be" />
+
+      Pengecekan:
+
+      5<img width="573" height="714" alt="image" src="https://github.com/user-attachments/assets/7dd437d8-99c1-41dd-9dc5-39cb7b676e8d" />
+
+   6. Menu Keluar
+
+      <img width="570" height="449" alt="image" src="https://github.com/user-attachments/assets/728de112-a433-4716-a3bc-b791893f72a3" />
+
+   
+   8. Pengecekan 
+
+      <img width="529" height="381" alt="image" src="https://github.com/user-attachments/assets/e963befe-a1a5-440f-bdcf-3de731757c34" />
 
 
 
