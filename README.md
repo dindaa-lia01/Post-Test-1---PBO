@@ -132,7 +132,7 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
       Pengecekan:
 
-      5<img width="573" height="714" alt="image" src="https://github.com/user-attachments/assets/7dd437d8-99c1-41dd-9dc5-39cb7b676e8d" />
+      <img width="573" height="714" alt="image" src="https://github.com/user-attachments/assets/7dd437d8-99c1-41dd-9dc5-39cb7b676e8d" />
 
    6. Menu Keluar
 
