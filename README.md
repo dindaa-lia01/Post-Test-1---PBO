@@ -146,12 +146,13 @@ Secara keseluruhan, program ini berfungsi sebagai simulasi sederhana sistem info
 
       Setelah itu, pengguna memilih menu nomor 5 (Keluar). Program menampilkan pesan terima kasih dan menyatakan bahwa program selesai dijalankan.
       
-      <img width="570" height="449" alt="image" src="https://github.com/user-attachments/assets/728de112-a433-4716-a3bc-b791893f72a3" />
+      
+      <img width="570" height="219" alt="Screenshot 2025-09-09 090013" src="https://github.com/user-attachments/assets/b8b42fbe-6c61-4829-98e8-6f661803aace" />
 
    
    6. Pengecekan 
 
-      Pengguna pertama kali memilih menu dengan nomor 6, yang tidak valid karena hanya tersedia pilihan 1 sampai 5. Program menampilkan pesan kesalahan dan meminta input ulang.
+      Pengguna pertama kali memilih menu dengan nomor 6, yang tidak valid karena hanya tersedia pilihan 1 sampai 5. Program menampilkan pesan kesalahan dan meminta input ulang dikarenakan pada program ini menerapkan perualangan menggunakan 'do - while', sehingga program tidak berhenti kecuali user memilih menu keluar.
       
       <img width="529" height="381" alt="image" src="https://github.com/user-attachments/assets/e963befe-a1a5-440f-bdcf-3de731757c34" />
 
